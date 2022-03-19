@@ -1,0 +1,381 @@
+/*
+COLOUR PROFILE
+burnt orange: #722a00
+orange:  #ff8137
+light orange: #feddc9
+sandy orange: #feede2
+white: #ffffff
+*/
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	background-color: #ffffff;
+	font-family: Source Sans Pro, Arial, Helvetica, sans-serif;
+	font-size: 1.6rem;
+	line-height: 2.6rem;
+	color: #722a00;
+	display: flex;
+	justify-content: space-around;
+}
+
+.hidden {
+    display: none;
+}
+
+/*---------------MOBILE VIEW---------------*/
+/*-----------------------------------------*/
+
+.wrapper {
+	width: 100%;
+	font-size: 1.2rem;
+}
+
+/*----------NAV-BAR----------*/
+/*---------------------------*/
+
+.nav-bar {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #722a00;
+}
+
+.toggle-btn {
+    background-color: #722a00;
+    width: 6rem;
+    height: 6rem;
+    border: none;
+    border-radius: 50%;   
+    outline: none;
+}
+
+.toggle-btn svg {
+    height: 3rem;
+    margin-top: .75rem;
+}
+
+.toggle-btn:hover {
+    cursor: pointer;
+}
+
+.menu {    
+    padding: 1rem 0 0 0;
+}
+
+.menu li {
+    line-height: 4rem;
+}
+
+.menu li:last-child {
+    margin-bottom: 1.5rem;
+}
+
+.menu li a {
+	color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 0 2.5rem;
+}
+
+.menu a:hover,
+.menu a:active {
+    color: #feddc9;
+}
+
+nav {
+    position: absolute;
+    background-color: #722a00;
+    z-index: 99;
+    top: 6rem;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.7s ease-in-out;
+    /*border-bottom: 2px solid #666;*/
+}
+
+ul.menu li:focus-within > ul,
+ul.menu li > ul:focus {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+
+.show-nav {
+    max-height: 24rem;
+}
+
+.top-ad {
+	display: flex;
+	justify-content: space-around;
+}
+
+.top-ad img {
+	width: 100%;
+}
+
+/*-----------HEADER-----------*/
+/*----------------------------*/
+
+header {
+	padding: 4rem 2rem 2rem 2rem;
+}
+
+header h1 {
+	padding: 2rem 0 0 0.75rem;
+}
+
+header h1 a {
+	font-family: 'Knewave', cursive;
+	font-size: 3rem;
+	color: #ff8137;
+}
+
+header h2 {
+	font-size: 2rem;
+	font-style: italic;
+	color: #722a00;
+	margin-top: 1rem;
+}
+
+/*------------MAIN------------*/
+/*----------------------------*/
+
+main {
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: flex-start;
+}
+
+aside {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 2rem 2rem 4rem 2rem;
+}
+
+.asidebox {
+	text-align: center;
+	width: 100%;
+	line-height: 1.6;
+	padding: 1rem;
+}
+
+.asidebox h3 {
+	font-family: 'Knewave', cursive;
+	font-size: 1.4rem;
+	margin-bottom: 1rem;
+}
+
+.asidebox li a {
+	color: #722a00;
+}
+
+.asidebox li a:hover {
+	text-decoration: underline;
+}
+
+.asidebox img {
+	margin: 1rem;
+}
+
+.content {
+	margin: 1rem 0;
+}
+
+.side-ad {
+	padding: 0 2rem;
+}
+
+article {
+	width: 85%;
+	line-height: 1.6;
+	padding: 2rem;
+}
+
+article h2,
+article h2 a {
+	margin-bottom: 1rem;
+	font-size: 2rem;
+	color: #ff8137;
+}
+
+article img {
+	width: 100%;
+	max-width: 50rem;
+	margin-bottom: 1rem;
+}
+
+.recipe-margin-bottom {
+	margin-bottom: 1rem;
+}
+
+.news p {
+	margin-bottom: 1rem;
+}
+
+.photo-atribution {
+	font-size: 1rem;
+}
+
+.communities-subheading {
+	margin-bottom: 1rem;
+	font-size: 1.8rem;
+	color: #722a00;
+	font-style: italic;
+}
+
+/*------------FOOTER------------*/
+/*------------------------------*/
+
+footer {
+	background-color: #772a00;
+	color: #ffffff;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	line-height: 1.8rem;
+	padding: 4rem 2rem 2rem 2rem;
+}
+
+.footer-segment {
+	text-align: center;
+	width: 50%;
+	margin-bottom: 1rem;
+}
+
+footer h4 {
+	font-size: 1.2rem;
+
+}
+
+footer ul li a,
+footer div p span a {
+	color: #feddc9;
+}
+
+footer ul li a:hover,
+footer div p span a:hover {
+	text-decoration: underline;
+}
+
+footer div {
+	width: 100%;
+	margin: 3rem 0;
+	text-align: center;
+}
+
+/*---------------DESKTOP VIEW---------------*/
+/*------------------------------------------*/
+
+@media only screen and (min-width: 600px) {
+
+	body {
+		background-image: url(../img/grassy-field-1800.jpg);
+		background-position: top;
+	}
+
+	.wrapper {
+		width: 94rem;
+		background-color: rgba(255, 255, 255, 0.9);
+		justify-content: space-around;
+		margin: 3rem 0;
+	}
+
+	nav {
+		max-width: 94rem;
+		position: static;
+        max-height: 20rem;
+        overflow: visible;
+        justify-content: space-around;
+	}
+
+	nav ul li {
+		margin: 0 2rem;
+	}
+
+	.top-ad {
+		background-image: url(../img/banner-ad-940.jpg);
+		background-size: cover;
+		background-position: center;
+		height: 6rem;
+	}
+
+	.top-ad img {
+		opacity: 0;
+	}
+
+	/*-----------HEADER-----------*/
+	/*----------------------------*/
+
+	.toggle-btn {
+		display: none;
+	}
+
+    .nav-bar,
+    nav,
+   	.menu {
+        display: flex;
+    }
+
+    header {
+        align-items: center;
+        padding-left: 4rem;
+    }
+
+  	/*------------MAIN------------*/
+	/*----------------------------*/
+
+	main {
+		flex-direction: initial;
+		font-size: 1.6rem;
+		margin: 2rem 0 4rem 0;
+	}
+
+	aside {
+		border-right: 1px solid #722a00;
+		padding: 2rem 0;
+	}
+
+	.asidebox h3 {
+		font-size: 2rem;
+	}
+
+	.checkout {
+		padding: 0 1rem;
+	}
+
+	.article-sizing {
+		width: fit-content;
+	}
+
+	.link {
+		color: #ff8137;
+	}
+
+	.link:hover {
+		text-decoration: underline;
+	}
+
+	/*------------FOOTER------------*/
+	/*------------------------------*/
+
+	.footer-segment,
+	.footer-segment h4 {
+		display: flex;
+		justify-content: center;
+		font-size: 1.4rem;
+	}
+
+	footer ul {
+		display: flex;
+		padding: 0 1rem;
+	}
+
+	footer ul li {
+		padding: 0 1rem;
+	}
+}
