@@ -20,7 +20,7 @@ html {
 body {
 	background-color: #062b31;
 	/*background-image: linear-gradient(#0ff 1px, transparent 1px);
-	background-size: auto 24px;*/
+	background-size: auto 30px;*/
 	font-family: Source Sans Pro, Arial, Helvetica, sans-serif;
 	font-weight: 400;
 	font-size: 1.6rem;
@@ -44,7 +44,7 @@ header {
 	font-weight: 600;
 	display: flex;
 	justify-content: space-between;
-	padding: 2rem 2rem 1.7rem 2rem;
+	padding: 2.9rem 2rem 1.7rem 2rem;
 }
 
 header h1 {
@@ -52,7 +52,7 @@ header h1 {
 }
 
 header h1 a {
-	font-size: 2rem;
+	font-size: 2.6rem;
 	color: #ee8b22;
 }
 
@@ -91,20 +91,20 @@ header h1 a:hover {
 }
 
 .menu li {
-    line-height: 4rem;
+    line-height: 6rem;
 }
 
 .menu li:first-child {
-	margin-top: 10rem;
+	margin-top: 14rem;
 }
 
 .menu li:last-child {
-    margin-bottom: 8rem;
+    margin-bottom: 18rem;
 }
 
 .menu li a {
 	color: #ee8b22;
-    font-size: 1.5rem;
+    font-size: 2.4rem;
     text-decoration: none;
     padding: 0 2.5rem;
 }
@@ -117,7 +117,7 @@ header h1 a:hover {
 nav {
     position: absolute;
     z-index: 99;
-    top: 6rem;
+    top: 8rem;
     left: 0;
     width: 100%;
     overflow: hidden;
@@ -133,7 +133,7 @@ ul.menu li > ul:focus {
 }
 
 .show-nav {
-    max-height: 50rem;
+    max-height: 100rem;
 }
 
 
@@ -146,20 +146,17 @@ main {
 
 .logo-token {
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	padding-right: 1.5rem;
+	margin: 3rem 2.4rem 7.4rem auto;
 	max-width: 90%;
 }
 
 .home-intro {
-	font-family: pragmatica-slabserif, sans-serif;
-	font-style: normal;
 	font-weight: 400;
-	font-size: 1.6rem;
+	line-height: 3rem;
+	font-size: 2rem;
 	padding: 0 1rem;
-	margin: 3rem auto 5rem auto;
-	color: #ee8b22;
+	margin: 0 auto 5rem auto;
+	color: #f6fbfd;
 }
 
 
