@@ -99,7 +99,7 @@ header h1 a:hover {
 }
 
 .menu li:last-child {
-    margin-bottom: 18rem;
+    margin-bottom: 26rem;
 }
 
 .menu li a {
@@ -151,10 +151,10 @@ main {
 }
 
 .home-intro {
-	font-weight: 400;
+	font-weight: 500;
 	line-height: 3rem;
 	font-size: 2rem;
-	padding: 0 1rem;
+	padding: 0 1.2rem 0 1rem;
 	margin: 0 auto 5rem auto;
 	color: #f6fbfd;
 }
@@ -167,6 +167,10 @@ main {
 footer {
 	padding: 2rem;
 	margin-top: 20rem;	
+}
+
+footer p {
+	padding: 0 0 0 1rem;
 }
 
 /*---------------DESKTOP VIEW---------------*/
