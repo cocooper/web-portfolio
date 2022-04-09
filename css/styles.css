@@ -18,9 +18,9 @@ html {
 }
 
 body {
-	/*background-color: #fff;*/
-	background-image: linear-gradient(#0ff 1px, transparent 1px);
-	background-size: auto 30px;
+	background-color: #fff;
+	/*background-image: linear-gradient(#0ff 1px, transparent 1px);
+	background-size: auto 30px;*/
 	font-family: Source Sans Pro, Arial, Helvetica, sans-serif;
 	font-weight: 400;
 	font-size: 1.6rem;
