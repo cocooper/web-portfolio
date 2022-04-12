@@ -153,16 +153,32 @@ ul.menu li > ul:focus {
 	width: 100%;
 }
 
-.black-box img {
-	width: 16rem;
-	margin: 10rem -5rem 10.3rem 0;
+.black-box .viewport-logo {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
 
+.black-box .viewport-logo img {
+	width: 16rem;
+	margin: 10rem -5rem 5.3rem 0;
+}
+
+.black-box .icon-arrow-down img {
+	height: 16px;
+	margin: 2rem;
 }
 
 .mission {
 	font-size: 1.8rem;
 	line-height: 3rem;
-	margin: 6.9rem 6rem 6rem 3rem;
+	margin: 6.9rem 9rem 6rem 3rem;
+	text-align: right;
+}
+
+.home-featured {
+	margin: 0 9rem 0 0;
+	text-align: right;
 }
 
 .featured-projects {
@@ -172,16 +188,15 @@ ul.menu li > ul:focus {
 	font-size: 2rem;
 	line-height: 3rem;
 	color: #000;
-	margin: 0 0 5.3rem 3rem;
+	margin: 0 0 5.3rem 0;
 }
 
 .featured-project-img {
-	width: 84%;
-	padding: 0 8%;
+	width: 100%;
 }
 
 .featured-project-title {
-	margin: 1rem 0 5.5rem 3rem;
+	margin: 1rem 0 5.5rem 0;
 }
 
 /*------------FOOTER------------*/
@@ -191,6 +206,32 @@ footer {
 	background-color: #000;
 	color: #fff;
 	padding: 6rem 3rem;
+}
+
+.footer-links {
+	margin: 1rem 0 2rem 0;
+	width: 100%;
+	display: flex;
+}
+
+.footer-links img {
+	height: 20px;
+	margin-right: 2rem;
+}
+
+.footer-links div:nth-child(2) img {
+	height: 21px;
+	padding-top: 1px;
+}
+
+.footer-links div:nth-child(3) img {
+	height: 16px;
+	padding-top: 3px;
+}
+
+.footer-links div:last-child img {
+	height: 17px;
+	padding-top: 3px;
 }
 
 footer p {
