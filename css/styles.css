@@ -46,6 +46,9 @@ header {
 	display: flex;
 	justify-content: space-between;
 	padding: 0 0 0 2rem;
+	position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 
 header h1 {
@@ -173,21 +176,6 @@ ul.menu li > ul:focus {
 	margin: 6.9rem 9rem 7rem 3rem;
 	text-align: left;
 }
-
-/*.home-featured {
-	margin: 0 9rem 0 0;
-	text-align: left;
-}*/
-
-/*.featured-projects {
-	font-family: pragmatica-slabserif, sans-serif;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 2rem;
-	line-height: 3rem;
-	color: #000;
-	margin: 0 0 5.3rem 0;
-}*/
 
 .featured-work {
 	margin: 0 0 0 3rem;
