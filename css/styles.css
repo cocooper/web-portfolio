@@ -161,12 +161,7 @@ ul.menu li > ul:focus {
 
 .black-box .viewport-logo img {
 	width: 16rem;
-	margin: 10rem -5rem 10rem 0;
-}
-
-.black-box .icon-arrow-down img {
-	height: 16px;
-	margin: 2rem;
+	margin: 7rem -5rem 7rem 0;
 }
 
 .mission {
@@ -206,7 +201,7 @@ ul.menu li > ul:focus {
 	font-family: pragmatica-slabserif, sans-serif;
 	font-style: normal;
 	font-weight: 500;
-	font-size: 1.6rem;
+	font-size: 1.8rem;
 	line-height: 3rem;
 	margin: 1rem 0 5.5rem 0;
 }
@@ -227,22 +222,22 @@ footer {
 }
 
 .footer-links img {
-	height: 20px;
-	margin-right: 2rem;
+	height: 30px;
+	margin-right: 3rem;
 }
 
 .footer-links div:nth-child(2) img {
-	height: 21px;
+	height: 31px;
 	padding-top: 1px;
 }
 
 .footer-links div:nth-child(3) img {
-	height: 16px;
+	height: 26px;
 	padding-top: 3px;
 }
 
 .footer-links div:last-child img {
-	height: 17px;
+	height: 27px;
 	padding-top: 3px;
 }
 
