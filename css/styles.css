@@ -161,7 +161,7 @@ ul.menu li > ul:focus {
 
 .black-box .viewport-logo img {
 	width: 16rem;
-	margin: 10rem -5rem 5.3rem 0;
+	margin: 10rem -5rem 10rem 0;
 }
 
 .black-box .icon-arrow-down img {
@@ -170,18 +170,21 @@ ul.menu li > ul:focus {
 }
 
 .mission {
-	font-size: 1.8rem;
+	font-family: pragmatica-slabserif, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5rem;
 	line-height: 3rem;
-	margin: 6.9rem 9rem 6rem 3rem;
-	text-align: right;
+	margin: 6.9rem 9rem 7rem 3rem;
+	text-align: left;
 }
 
-.home-featured {
+/*.home-featured {
 	margin: 0 9rem 0 0;
-	text-align: right;
-}
+	text-align: left;
+}*/
 
-.featured-projects {
+/*.featured-projects {
 	font-family: pragmatica-slabserif, sans-serif;
 	font-style: normal;
 	font-weight: 500;
@@ -189,6 +192,10 @@ ul.menu li > ul:focus {
 	line-height: 3rem;
 	color: #000;
 	margin: 0 0 5.3rem 0;
+}*/
+
+.featured-work {
+	margin: 0 0 0 3rem;
 }
 
 .featured-project-img {
@@ -196,6 +203,11 @@ ul.menu li > ul:focus {
 }
 
 .featured-project-title {
+	font-family: pragmatica-slabserif, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.6rem;
+	line-height: 3rem;
 	margin: 1rem 0 5.5rem 0;
 }
 
@@ -235,7 +247,11 @@ footer {
 }
 
 footer p {
-	font-size: 1.8rem;
+	font-family: pragmatica-slabserif, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.6rem;
+	line-height: 3rem;
 }
 
 /*---------------DESKTOP VIEW---------------*/
