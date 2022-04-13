@@ -1,27 +1,13 @@
-/*
-COLOUR PROFILE
-
-white: #ffffff
-foggy white: #f6fbfd
-black: #000000
-
-burnt teal: #062b31
-orangesicle: #ee8b22
-
-blue teal: #164c5f
-blue freeze: #23b4d3
-*/
-
 html {
-	font-size: 62.5%;
-	
+	font-size: 62.5%;	
 }
 
 body {
 	background-color: #fff;
 	/*background-image: linear-gradient(#0ff 1px, transparent 1px);
 	background-size: auto 30px;*/
-	font-family: Source Sans Pro, Arial, Helvetica, sans-serif;
+	font-family: pragmatica-slabserif, sans-serif;
+	font-style: normal;
 	font-weight: 400;
 	font-size: 1.6rem;
 	line-height: 2.4rem;
@@ -40,19 +26,16 @@ body {
 
 header {
 	background-color: #000;
-	font-family: pragmatica-slabserif, sans-serif;
-	font-style: normal;
 	font-weight: 600;
 	display: flex;
 	justify-content: space-between;
-	padding: 0 0 0 2rem;
 	position: -webkit-sticky;
     position: sticky;
     top: 0;
 }
 
 header h1 {
-	margin: 3.1rem 0 3rem 1rem;
+	margin: 3rem 0 3rem 3rem;
 }
 
 header h1 a {
@@ -87,7 +70,6 @@ header h1 a {
 .menu li {
     line-height: 6rem;
     text-align: center;
-
 }
 
 .menu li:first-child {
@@ -129,10 +111,8 @@ ul.menu li > ul:focus {
 /*------------MAIN------------*/
 /*----------------------------*/
 
-.black-box {
+.home-black-box {
 	background-color: #000;
-	font-family: pragmatica-slabserif, sans-serif;
-	font-style: normal;
 	font-weight: 500;
 	font-size: 2rem;
 	line-height: 3rem;
@@ -144,54 +124,80 @@ ul.menu li > ul:focus {
 	justify-content: flex-end;
 }
 
-.black-box h2 {
+.home-black-box h2 {
 	margin-bottom: 3rem;
 	width: 100%;
 }
 
-.black-box p {
-	font-size: 1.8rem;
+.home-black-box p {
 	font-weight: 400;
+	font-size: 1.8rem;
 	line-height: 3rem;
 	width: 100%;
 }
 
-.black-box .viewport-logo {
+.home-black-box .home-viewport-logo {
 	width: 100%;
 	display: flex;
 	justify-content: flex-end;
 }
 
-.black-box .viewport-logo img {
+.home-black-box .home-viewport-logo img {
 	width: 16rem;
-	margin: 7rem -5rem 7rem 0;
+	margin: 7rem -5rem 7.3rem 0;
 }
 
-.mission {
-	font-family: pragmatica-slabserif, sans-serif;
-	font-style: normal;
-	font-weight: 400;
+.home-mission {
 	font-size: 1.5rem;
 	line-height: 3rem;
 	margin: 6.9rem 9rem 7rem 3rem;
 	text-align: left;
 }
 
-.featured-work {
+.home-featured-work {
 	margin: 0 0 0 3rem;
 }
 
-.featured-project-img {
+.home-featured-project-img {
 	width: 100%;
 }
 
-.featured-project-title {
-	font-family: pragmatica-slabserif, sans-serif;
-	font-style: normal;
+.home-featured-project-title {
 	font-weight: 500;
 	font-size: 1.8rem;
 	line-height: 3rem;
 	margin: 1rem 0 5.5rem 0;
+}
+
+.about-portrait {
+	margin: 0 9rem 3rem 0;
+}
+
+.about-portrait img {
+	width: 100%;
+}
+
+.about-bio {
+	margin: 3.9rem 9rem 0 3rem;
+}
+
+.about-connect-link {
+	color: #ee8b22;
+}
+
+.about-heading {
+	font-weight: 500;
+	font-size: 1.8rem;
+	line-height: 3rem;
+	margin: 6.9rem 9rem 1rem 3rem;
+}
+
+.about-copy {
+	margin: 0 9rem 0 3rem;
+}
+
+.about-copy:last-child {
+	margin-bottom: 7.9rem;
 }
 
 /*------------FOOTER------------*/
@@ -230,9 +236,6 @@ footer {
 }
 
 footer p {
-	font-family: pragmatica-slabserif, sans-serif;
-	font-style: normal;
-	font-weight: 400;
 	font-size: 1.6rem;
 	line-height: 3rem;
 }
