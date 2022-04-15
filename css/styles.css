@@ -269,6 +269,11 @@ ul.menu li > ul:focus {
 	padding: 0.8rem 0.8rem;
 }
 
+.contact-recaptcha {
+	margin right: 3rem;
+	margin-left: 2rem;
+}
+
 .contact-button input {
 	font-family: pragmatica-slabserif, sans-serif;
 	font-style: normal;
