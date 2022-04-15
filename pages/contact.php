@@ -1,9 +1,27 @@
+<?php
+
+
+if($_POST["message"]) {
+
+
+mail("coopercdesign@gmail.com", "Here is the subject line",
+
+
+$_POST["insert your message here"]. "From: an@email.address");
+
+
+}
+
+
+?>
+
+
 <!doctype html>
 <html lang="en">
 <head>
 	<!-- DESCRIPTION & SEO --> 
 	<meta charset="utf-8" />
-	<meta name="description" content="Cole Cooper is a graphic designer in Alberta, Canada who focuses on branding, logo, product, and web design. ">
+	<meta name="description" content="Cole Cooper is a graphic designer in Alberta, Canada who focuses on branding, logo, product, and web design.">
   	<meta name="keywords" content="Cole Cooper, design, designer, graphic designer, artist, illustrator, Cole, Cooper, logo designer">
   	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Cole Cooper</title>
@@ -39,14 +57,14 @@
 				<li><a href="../index.html">Home</a></li>
 				<li><a href="projects.html">Projects</a></li>
 				<li><a href="about.html">About</a></li>
-				<li><a href="contact.html">Connect</a></li>
+				<li><a href="contact.php">Connect</a></li>
 			</ul>
 		</nav>
 	</header>
 
 	<main class="contact">
 		<h2>Let's Connect</h2>
-		<form action="#" method="post">
+		<form action="contact.php" method="post">
 		<fieldset class="contact-flex-container">
 			<div class="contact-input">
 				<input type="text" id="fname" placeholder="First Name" required>
