@@ -18,6 +18,9 @@ body {
     display: none;
 }
 
+
+
+
 /*---------------MOBILE VIEW---------------*/
 /*-----------------------------------------*/
 
@@ -50,6 +53,9 @@ header h1 a {
 .contact-body header h1 a {
 	color: #000;
 }
+
+
+
 
 /*----------NAV-BAR----------*/
 /*---------------------------*/
@@ -102,7 +108,7 @@ nav {
     width: 100%;
     overflow: hidden;
     max-height: 0;
-    transition: max-height 1s ease-in-out;
+    transition: max-height 0.75s ease-in-out;
 }
 
 ul.menu li:focus-within > ul,
@@ -115,6 +121,9 @@ ul.menu li > ul:focus {
 .show-nav {
     max-height: 100rem;
 }
+
+
+
 
 /*------------MAIN------------*/
 /*----------------------------*/
@@ -139,11 +148,12 @@ ul.menu li > ul:focus {
 	width: 100%;
 }
 
-.home-black-box p,
+.home-black-box a,
 .projects p {
 	font-weight: 400;
 	font-size: 1.8rem;
 	line-height: 3rem;
+	color: #fff;
 	width: 100%;
 }
 
@@ -174,6 +184,7 @@ ul.menu li > ul:focus {
 }
 
 .home-featured-project-title {
+	color: #000;
 	font-weight: 500;
 	font-size: 1.8rem;
 	line-height: 3rem;
@@ -184,6 +195,10 @@ ul.menu li > ul:focus {
 	justify-content: flex-start;
 	padding-bottom: 6rem;
 	margin-bottom: 6.9rem;
+}
+
+.projects-description {
+	margin-bottom: 3rem;
 }
 
 .projects p {
@@ -199,12 +214,30 @@ ul.menu li > ul:focus {
 	width: 100%;
 }
 
+.projects-work a {
+	color: #000;
+}
+
 .projects-title {
 	font-weight: 500;
 	font-size: 1.8rem;
 	line-height: 3rem;
 	margin: 1rem 0 5.5rem 0;
 	text-align: right;
+}
+
+.image-series {
+	margin-bottom: 4.9rem;
+}
+
+.projects-nav {
+	font-weight: 500;
+	margin: 0 0 4.9rem 3rem;	
+}
+
+.projects-nav a {
+	color: #000;
+	margin-right: 2rem;
 }
 
 .about-portrait {
@@ -219,7 +252,8 @@ ul.menu li > ul:focus {
 	margin: 3.9rem 9rem 0 3rem;
 }
 
-.about-connect-link {
+.about-connect-link,
+.projects-intro p span {
 	color: #ee8b22;
 }
 
@@ -231,6 +265,7 @@ ul.menu li > ul:focus {
 }
 
 .about-copy {
+	font-size: 1.5rem;
 	margin: 0 9rem 0 3rem;
 }
 
@@ -297,6 +332,34 @@ ul.menu li > ul:focus {
 	color: #fff;
 }
 
+.form-sent div {
+	margin: 10rem 9rem 10rem 3rem;
+	font-weight: 400;
+	font-size: 1.8rem;
+	line-height: 3rem;
+	color: #fff;
+}
+
+.form-sent h2 {
+	font-weight: 500;
+	margin-bottom: 6rem;
+}
+
+.form-sent .thanks {
+	margin-bottom: 6rem;
+}
+
+.form-sent p {
+	margin-bottom: 2rem;
+}
+
+.form-sent a {
+	color: #ee8b22;
+}
+
+
+
+
 /*------------FOOTER------------*/
 /*------------------------------*/
 
@@ -337,6 +400,9 @@ footer p {
 	line-height: 3rem;
 }
 
+
+
+
 /*---------------DESKTOP VIEW---------------*/
 /*------------------------------------------*/
 
@@ -354,6 +420,9 @@ footer p {
 		margin: 0 2rem;
 	}
 
+
+
+
 	/*-----------HEADER-----------*/
 	/*----------------------------*/
 
@@ -370,6 +439,9 @@ footer p {
     header {
         align-items: center;
     }
+
+
+
 
   	/*------------MAIN------------*/
 	/*----------------------------*/
