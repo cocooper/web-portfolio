@@ -254,7 +254,7 @@ ul.menu li > ul:focus {
 
 .about-connect-link,
 .projects-intro p span {
-	color: #ee8b22;
+	color: #f4b067;
 }
 
 .about-heading {
@@ -328,7 +328,7 @@ ul.menu li > ul:focus {
 	outline: none;
 	margin: 0 0 3rem 3rem;
 	padding: 0.8rem 1.6rem 0.8rem 1.4rem;
-	background-color: #ee8b22;
+	background-color: #f4b067;
 	color: #fff;
 }
 
@@ -406,39 +406,84 @@ footer p {
 /*---------------DESKTOP VIEW---------------*/
 /*------------------------------------------*/
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 950px) {
 
-	nav {
-		max-width: 94rem;
-		position: static;
-        max-height: 20rem;
-        overflow: visible;
-        justify-content: space-around;
-	}
-
-	nav ul li {
-		margin: 0 2rem;
-	}
-
-
+	
 
 
 	/*-----------HEADER-----------*/
 	/*----------------------------*/
 
+	.nav-bar,
 	.toggle-btn {
 		display: none;
 	}
 
-    .nav-bar,
-    nav,
-   	.menu {
-        display: flex;
-    }
+	header {
+		background-color: #000;
+		position: -webkit-sticky;
+	    position: sticky;
+	    top: 0;
+	    display: flex;
+	}
 
-    header {
-        align-items: center;
-    }
+	header h1 {
+		width: 20rem;
+		margin: 3rem 6rem;
+	}
+
+	header h1 a {
+		font-size: 3rem;
+		line-height: 4rem;
+		font-weight: 500;
+		color: #fff;
+	}
+
+	nav {
+		position: static;
+        max-height: 9rem;
+        overflow: visible;
+        display: flex;
+        width: unset;
+	}
+
+	.menu {
+		background-color: #000;
+		display: flex;
+	}
+
+	.menu li {
+	    font-size: 2rem;
+		line-height: 3rem;
+		width: 20rem;
+		margin-top: 3.2rem;
+	}
+
+	.menu li:first-child {
+		display: none;
+	}
+
+	.menu li:last-child {
+		height: 6.8rem;
+	    padding-bottom: 0;
+	    margin-top: 0;
+	    padding-top: 3.2rem;
+	    background-color: #fff;
+	}
+
+	.menu li a {
+	    font-size: 2rem;
+	    line-height: 3rem;
+	    font-weight: 500;
+	    text-decoration: none;
+	    color: #fff;
+	    align-items: center;
+	}
+
+	.menu li:last-child a {
+		color: #000;
+		font-weight: 600;
+	}
 
 
 
@@ -446,6 +491,157 @@ footer p {
   	/*------------MAIN------------*/
 	/*----------------------------*/
 
+	main,
+	.projects {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.home-black-box,
+	.projects-intro {
+		margin-right: 20rem;
+		width: 100%;
+	}
+
+	.home-black-box h2,
+	.projects-intro h2 {
+		padding-top: 5rem;
+		margin-left: 3rem;
+	}
+
+	.home-black-box a,
+	.projects-intro p {
+		margin-left: 3rem;
+	}
+
+	.home-black-box .home-viewport-logo img {
+		margin: 0 -5rem 1.2rem 0;
+	}
+
+	.home-mission {
+		font-family: pragmatica-slabserif, sans-serif;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 2rem;
+		line-height: 3rem;
+		margin: 6.9rem 29% 6.9rem 6rem;
+	}
+
+	.home-featured-work {
+		margin: 0 0 0 6rem;
+		width: 24.98%;
+	}
+
+	.home-featured-project-title {
+		color: #000;
+		font-weight: 500;
+		font-size: 1.8rem;
+		line-height: 3rem;
+		margin: 1rem 0 5.5rem 0;
+	}
+
+	.projects-intro p {
+		padding-right: 52%;
+	}
+
+	.projects-title {
+		text-align: left;
+	}
+
+	.projects-work {
+		width: 39.47%;
+		margin: 0 0 0 6rem;
+	}
+
+	.projects-nav {
+		width: 80%;
+		margin-left: 6rem;
+	}
+
+	.about {
+		background-color: #000;
+		color: #fff;
+		margin-right: 20rem;
+	}
+
+	.about-portrait {
+		width: 20%;
+		margin: 7.4rem 3rem 10rem 6rem;
+	}
+
+	.about-bio-box {
+		width: 55%;
+		margin-top: 3rem;
+	}
+
+	.about-bio-box-extra {
+		display: flex;
+	}
+
+	.about-bio-box-extra div {
+		width: 30rem;
+	}
+
+	.about-heading,
+	.about-copy {
+		margin-right: 0;
+	}
+
+	.about-copy:last-child {
+		margin-bottom: 15rem;
+	}
+
+	.contact-body {
+		background-color: #fff;
+	}
+
+	.contact-body header {
+		background-color: #000;
+		max-height: 9rem;
+	}
+
+	.contact-body header h1 a {
+		color: #fff;
+	}
+
+	.contact-body header nav .menu li:last-child {
+		padding-top: 3.2rem;
+		height: unset;
+	}
+
+	.contact {
+		padding-top: 7.4rem;
+		margin-right: 20rem;
+		margin-bottom: 0;
+		padding-left: 3rem;
+		background-color: #000;
+	}
+
+	.contact h2 {
+		width: 100%;
+	}
+
+	.contact form .contact-input input {
+		width: 65%;
+	}
+
+	.contact form {
+		width: 50%;
+		margin-bottom: 5rem;
+	}
+
+
+
+
 	/*------------FOOTER------------*/
 	/*------------------------------*/
+
+	footer  {
+		padding: 3rem 6rem;
+	}
+
+	.about-footer {
+		margin-right: 20rem;
+		padding-bottom: 6rem;
+	}
 }
