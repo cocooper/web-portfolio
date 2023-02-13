@@ -7,7 +7,6 @@
 	  window.dataLayer = window.dataLayer || [];
 	  function gtag(){dataLayer.push(arguments);}
 	  gtag('js', new Date());
-
 	  gtag('config', 'G-FHSNJJNWJM');
 	</script>
 
@@ -15,22 +14,18 @@
 
 	<!-- DESCRIPTION & SEO --> 
 	<meta charset="utf-8" />
-	<title>Cole Cooper</title>
-	<link rel="canonical" href="https://colecooper.ca"/>
-	<meta name="description" content="Cole Cooper is a graphic designer in Alberta, Canada who focuses on branding, logo, product, and web design." />
-  	<meta name="keywords" content="Cole Cooper, design, designer, graphic designer, artist, illustrator, Cole, Cooper, logo designer" />
+	<title>freelance graphic designer | coopercdesign</title>
+	<link rel="canonical" href="https://www.colecooper.ca" />
+	<meta name="description" content="Cole Cooper is an Edmonton-based freelance graphic designer specializing in web design, branding, and print design." />
+  	<meta name="keywords" content="cole cooper, freelance graphic designer edmonton, logo design edmonton, web designer edmonton, business card design edmonton, edmonton print design" />
   	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	
 
 	<!-- FAVICON -->
-
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 	<link rel="manifest" href="/site.webmanifest">
-	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-	<meta name="msapplication-TileColor" content="#da532c">
-	<meta name="theme-color" content="#ffffff">
 
 	<!-- GOOGLE FONTS -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -45,72 +40,115 @@
 	<link rel="stylesheet" href="css/styles.css" />
 </head>
 
-<body>
+<body id="top">
 	<header>
-		<h1><a href="index.html">Cole Cooper</a></h1>
+		<h1><a href="index.html">coopercdesign</a></h1>
 		<div class="nav-bar">
-			<h2 class="hidden">Navigation</h2>
+			<h2 class="hidden">navigation</h2>
 			<button class="toggle-btn" aria-label="menu">
 	   			<svg id="icon-hamburger-menu" viewBox="0 0 26 32">
-					<rect y="0" width="130" height="3" style="fill:rgb(0,0,0);" />
-					<rect y="7" width="130" height="3" style="fill:rgb(0,0,0);" />
-					<rect y="14" width="130" height="3" style="fill:rgb(0,0,0);" />
+					<rect y="8" width="130" height="2" />
+					<rect y="14" width="130" height="2" />
 				</svg>
 			</button>
 		</div>
 		<nav>
+			<h2 class="hidden">mobile menu links</h2>
 			<ul class="menu">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="pages/projects.html">Projects</a></li>
-				<li><a href="pages/about.html">About</a></li>
-				<li><a href="pages/contact.html">Connect</a></li>
+				<li><a class="menu-link-one" href="#portfolio">portfolio</a></li>
+				<li><a class="menu-link-two" href="#services">services</a></li>
+				<li><a class="menu-link-three" href="pages/about.html">about</a></li>
+				<li><a class="menu-link-four" href="pages/about.html#contact">contact</a></li>
 			</ul>
 		</nav>
 	</header>
 
 	<main>
-		<div class="home-black-box">
-			<h2 class="designer-heading">Graphic Designer</h2>
-			<a href="pages/projects.html#prosports">Logo Design</a>
-			<a href="pages/projects.html#retro-rebrand">Brand Identity</a>
-			<a href="pages/projects.html#icon-set">Illustration</a>
-			<a href="pages/projects.html#web-design">Web Design</a>
-			<div class="home-viewport-logo">
-				<img src="img/logo-white-751.png" alt="Cole Cooper's design logo.">
+		<section class="landing">
+			<h2 class="site-headline">passionately crafting engaging design solutions for your business and personal needs</h2>
+		</section>
+		<section id="services" class="services">
+			<h2>services</h2>
+			<p class="services-intro">Graphic Design is a large industry, and I love to explore every corner of it.</p>
+			<div class="services-cards services-card-one">
+				<div class="services-card">
+					<div class="services-card-icon">
+						<img src="img/ccd-web-icon-660.png" alt="coopercdesign web design icon.">
+					</div>
+					<h3>web design</h3>
+					<p>An online presence is increasingly important for everyone looking to grow their consumer reach. Let's update your website or develop one from scratch to effectively engage with your audience, communicate who you are, and accelerate your growth.</p>
+				</div>
+				<div class="services-card services-card-two">
+					<div class="services-card-icon">
+						<img src="img/ccd-logo-icon-660.png" alt="coopercdesign logo icon.">
+					</div>
+					<h3>branding</h3>
+					<p>What are your values? What is the unique idea, product, or service separating you from your competition? Let's explore these questions, among others, to develop a visual identity your customers can trust.</p>
+				</div>
+				<div class="services-card">
+					<div class="services-card-icon">
+						<img src="img/ccd-photography-icon-660.png" alt="coopercdesign photography icon.">
+					</div>
+					<h3>print design</h3>
+					<p>From business cards to 100-page magazines, I can realize your print design needs. Infographics? Something that folds? Let's communicate your information in a way that makes sense.</p>
+				</div>
 			</div>
-			<h2 class="designer-heading">Featured Work</h2>	
-		</div>
-		<p class="home-mission">A designer of engaging logos and meaningful identities, Cole is in the business of developing valued working relationships through effective communication, creative ideation, and exceptional results.</p>
-		<div class="home-featured-work">
-			<a href="pages/retro-rebrand.html"><img class="home-featured-project-img" src="img/retro-rebrand-bottles-1000.jpg" alt="Two retro designed glass Gatorade bottles."></a>
-			<a href="pages/retro-rebrand.html"><h3 class="home-featured-project-title">Retro Rebrand</h3></a>
-		</div>
-		<div class="home-featured-work">
-			<a href="pages/app-concept-and-promo-booklet.html"><img class="home-featured-project-img" src="img/bountiful-booklet-1000.jpg" alt="A square booklet for a mobile app concept called Bountiful."></a>
-			<a href="pages/app-concept-and-promo-booklet.html"><h3 class="home-featured-project-title">App Concept & Promo Booklet</h3></a>
-		</div>
-		<div class="home-featured-work">
-			<a href="pages/sport-icon-set.html"><img class="home-featured-project-img" src="img/icons-cover-1000.jpg" alt="A set of nine sport icons in line art style."></a>
-			<a href="pages/sport-icon-set.html"><h3 class="home-featured-project-title">Sport Icon Set</h3></a>
-		</div>	
-	</main>
+			<div class="services-expanded">
+				<p class="services-service-list"><span>All Services:</span> logo design, branding, one-off graphics, web design and development, photography, photo editing, illustration, content creation, product design, print design, and design consulting. Don't see your needs on the list? Fill out my contact form with your design project details, and I'll let you know if I can help!</p>
+				<p class="services-service-regions"><span>Service Regions:</span> I am local to Edmonton, Alberta. My clients, however, are located all over the globe living in neighboring cities and different countries! If you are from my area, let's get in touch by whichever method you prefer! For those of you operating in other locations, I am happy to assist remotely.</p>
+			</div>
+		</section>
+		<section id="portfolio" class="portfolio">
+			<h2>portfolio</h2>
+			<div class="portfolio-cards">
+				<div class="portfolio-card">
+					<div class="portfolio-card-img">
+						<a href="pages/bea-setton"><img src="img/bea-setton-mobile-website-600.jpg" alt="Bea Setton's website on a laptop screen."></a>
+					</div>
+					<h3><a href="pages/bea-setton">Bea Setton</a></h3>
+				</div>
+				<div class="portfolio-card">
+					<div class="portfolio-card-img portfolio-img-one">
+						<a href="pages/mos"><img src="img/mos-magazine-cover-600.jpg" alt="An open copy of the Mind Ocean Space Magazine."></a>
+					</div>
+					<h3><a href="pages/mos">Mind Ocean Space</a></h3>
+				</div>
+				<div class="portfolio-card">
+					<div class="portfolio-card-img">
+						<a href="pages/old-saw"><img src="img/old-saw-studio-inc-logos-600.jpg" alt="Two phones displaying the Old Saw logo and icon."></a>
+					</div>
+					<h3><a href="pages/old-saw">Old Saw Studio Inc.</a></h3>
+				</div>
+			</div>
+		</section>		
+    </main>
 
 	<footer>
-		<div class="footer-links">
-			<div>
-				<a href="https://www.linkedin.com/in/cole-cooper-06191a202/" target="_blank"><img src="img/linkedin.svg" alt="LinkedIn"></a>
+		<section class="footer-top">
+			<h2 class="hidden">footer</h2>
+			<div class="footer-cta-bundle">
+				<div class="footer-cta">
+					<p class="footer-cta-copy">let's work together</p>
+				</div>
+				<div class="footer-button">
+					<a class="footer-cta-contact" href="pages/about.html#contact">contact</a>
+				</div>
 			</div>
-			<div>
-				<a href="https://www.behance.net/colecooper3/" target="_blank"><img src="img/behance.svg" alt="Behance"></a>
+			<div class="footer-links">
+				<a href="https://www.instagram.com/cole.cooperc/">Instagram</a>
+				<a href="https://www.linkedin.com/in/cole-cooper-06191a202/">LinkedIn</a>
 			</div>
-			<div>
-				<a href="https://www.instagram.com/cole.cooperc/" target="_blank"><img src="img/instagram.svg" alt="Instagram"></a>
-			</div>
-			<div>
-				<a href="mailto:coopercdesign@gmail.com" target="_blank"><img src="img/envelop.svg" alt="envelop"></a>
-			</div>
-		</div>
-		<p>&copy; Cole Cooper 2022 <a class="footer-privacy" href="privacy.txt" target="_blank">/privacy</a></p>
+			<div class="footer-btt">
+				<a href="#top">back to top</a>
+			</div>	
+		</section>
+		<section class="footer-bottom">
+			<h2 class="hidden">legal information</h2>
+			<div class="legal">
+				<p>coopercdesign &copy; 2023</p>
+				<a href="privacy.txt" target="_blank">privacy policy</a>				
+			</div>			
+		</section>
 	</footer>
 
 <script src="js/main.js"></script>

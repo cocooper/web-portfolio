@@ -5,8 +5,8 @@
 	<meta charset="utf-8" />
 	<title>About | Cole Cooper</title>
 	<link rel="canonical" href="https://www.colecooper.ca/pages/about.html"/>
-	<meta name="description" content="Cole Cooper is a graphic designer in Alberta, Canada who focuses on branding, logo, product, and web design. ">
-  	<meta name="keywords" content="Cole Cooper, design, designer, graphic designer, artist, illustrator, Cole, Cooper, logo designer">
+	<meta name="description" content="Cole Cooper is a graphic designer in Edmonton, Alberta. ">
+  	<meta name="keywords" content="Cole Cooper, design, designer, graphic designer, artist, illustrator, Cole, Cooper">
   	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- GOOGLE FONTS -->
@@ -24,72 +24,89 @@
 
 <body>
 	<header>
-		<h1><a href="../index.html">Cole Cooper</a></h1>
+		<h1><a href="../index.html">coopercdesign</a></h1>
 		<div class="nav-bar">
-			<h2 class="hidden">Navigation</h2>
+			<h2 class="hidden">navigation</h2>
 			<button class="toggle-btn" aria-label="menu">
 	   			<svg id="icon-hamburger-menu" viewBox="0 0 26 32">
-					<rect y="0" width="130" height="3" style="fill:rgb(0,0,0);" />
-					<rect y="7" width="130" height="3" style="fill:rgb(0,0,0);" />
-					<rect y="14" width="130" height="3" style="fill:rgb(0,0,0);" />
+					<rect y="8" width="130" height="2" />
+					<rect y="14" width="130" height="2" />
 				</svg>
 			</button>
 		</div>
 		<nav>
+			<h2 class="hidden">mobile menu links</h2>
 			<ul class="menu">
-				<li><a href="../index.html">Home</a></li>
-				<li><a href="projects.html">Projects</a></li>
-				<li><a href="about.html">About</a></li>
-				<li><a href="contact.html">Connect</a></li>
+				<li><a class="menu-link-one" href="../index.html#portfolio">portfolio</a></li>
+				<li><a class="menu-link-two" href="../index.html#services">services</a></li>
+				<li><a class="menu-link-three" href="about.html">about</a></li>
+				<li><a class="menu-link-four" href="#contact">contact</a></li>
 			</ul>
 		</nav>
 	</header>
 
-	<main class="about">
-		<h2 class="hidden">About</h2>
-		<div class="about-portrait">
-			<img src="../img/cole-cooper-portrait.jpg" alt="A picture of Cole Cooper.">
-		</div>
-		<div class="about-bio-box">
-			<p class="about-bio">Based in Edmonton, Cole is a freelance designer looking to make a statement in the design industry. With a fresh approach and technical style, he believes every project he works on has the potential to turn heads.</p>
-			<p class="about-bio">Need help with a design project? Work, consultation, chat, whatever it may be, feel free to get in touch through this <a href="contact.html" class="about-connect-link">connect form</a>.</p>
-			<div class="about-bio-box-extra">
-				<div>
-					<h2 class="about-heading">Services</h2>
-					<p class="about-copy">Logo Design</p>
-					<p class="about-copy">Brand Identity</p>
-					<p class="about-copy">Illustration</p>
-					<p class="about-copy">Web Design</p>
-					<p class="about-copy">Product Design</p>
-					<p class="about-copy">Print Design</p>
-					<p class="about-copy">Social Media Content</p>
-					<p class="about-copy">Photo Editing</p>
+	<main>
+		<section class="about">
+			<h2 class="about-headline">about</h2>
+				<div class="about-photo">
+					<img src="../img/cole-cooper-1080.jpg" alt="A picture of Cole Cooper.">
 				</div>
-				<div>
-					<h2 class="about-heading">Education & Awards</h2>
-					<p class="about-copy">NAIT - Digital Media & IT Diploma</p>
-					<p class="about-copy">Jason Lang Scholarship 2021</p>
+				<div class="about-bio">
+					<p class="about-bio-copy"><span>Bio:</span> My fingers are typing at the moment. Stay tuned for a bit about me.</p>
+					<p class="about-education-copy"><span>Education:</span> I graduated from the Northern Alberta Institute of Technology in 2022 with a digital media and IT diploma.</p>
+				</div>					
+		</section>
+		<section id="contact" class="about-contact-form">
+			<h2 class="about-contact-headline">contact</h2>
+			<form name="contact" method="post" data-netlify="true"  data-netlify-recaptcha="true" onsubmit="submit" action="/pages/form-sent.html">
+			<fieldset class="contact-flex-container">
+				<div class="contact-input">
+					<input name="fname" type="text" id="fname" placeholder="First Name" required>
 				</div>
-			</div>
-		</div>
+				<div class="contact-input">
+					<input name="lname" type="text" id="lname" placeholder="Last Name" required>
+				</div>
+				<div class="contact-input">
+					<input name="email" type="email" id="email" placeholder="Email" required>
+				</div>
+				<div class="contact-input">
+					<textarea name="message" id="message" placeholder="Details..."></textarea>
+				</div>
+				<div class="contact-recaptcha" data-netlify-recaptcha="true"></div>
+				<div class="contact-button">
+					<input type="submit" value="send">
+				</div>
+			</fieldset>		
+			</form>			
+		</section>
 	</main>
 
-	<footer class="about-footer">
-		<div class="footer-links">
-			<div>
-				<a href="https://www.linkedin.com/in/cole-cooper-06191a202/" target="_blank"><img src="../img/linkedin.svg" alt="LinkedIn"></a>
+	<footer>
+		<section class="footer-top">
+			<h2 class="hidden">footer</h2>
+			<div class="footer-cta-bundle">
+				<div class="footer-cta">
+					<p class="footer-cta-copy">let's work together</p>
+				</div>
+				<div class="footer-button">
+					<a class="footer-cta-contact" href="about.html#contact">contact</a>
+				</div>
 			</div>
-			<div>
-				<a href="https://www.behance.net/colecooper3/" target="_blank"><img src="../img/behance.svg" alt="Behance"></a>
+			<div class="footer-links">
+				<a href="https://www.instagram.com/cole.cooperc/">Instagram</a>
+				<a href="https://www.linkedin.com/in/cole-cooper-06191a202/">LinkedIn</a>
 			</div>
-			<div>
-				<a href="https://www.instagram.com/cole.cooperc/" target="_blank"><img src="../img/instagram.svg" alt="Instagram"></a>
-			</div>
-			<div>
-				<a href="mailto:coopercdesign@gmail.com" target="_blank"><img src="../img/envelop.svg" alt="envelop"></a>
-			</div>
-		</div>
-		<p>&copy; Cole Cooper 2022 <a class="footer-privacy" href="../privacy.txt" target="_blank">/privacy</a></p>
+			<div class="footer-btt">
+				<a href="#top">back to top</a>
+			</div>	
+		</section>
+		<section class="footer-bottom">
+			<h2 class="hidden">legal information</h2>
+			<div class="legal">
+				<p>coopercdesign &copy; 2023</p>
+				<a href="../privacy.txt" target="_blank">privacy policy</a>				
+			</div>			
+		</section>
 	</footer>
 
 <script src="../js/main.js"></script>
