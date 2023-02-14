@@ -519,6 +519,10 @@ footer section {
 		padding-left: 6rem;
 	}
 
+	.contact-button input {
+		width: 304px;
+	}
+
 	/*------------FOOTER------------*/
 	/*------------------------------*/
 
