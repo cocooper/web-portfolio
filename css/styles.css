@@ -328,7 +328,7 @@ section {
 	border-radius: 3px;
 	outline: none;
 	padding: 0.6rem 0 0.7rem 0;
-	width: calc(100% + 1rem);
+	width: calc(75% + 1rem);
 	background-color: #64ABCF;
 	color: #fff;
 }
@@ -355,7 +355,7 @@ section {
 }
 
 .form-sent a {
-	color: #f4b067;
+	color: #efefef;
 }
 
 /*------------FOOTER------------*/
