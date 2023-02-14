@@ -316,8 +316,8 @@ section {
 }
 
 .contact-recaptcha {
-	margin-left: 3rem;
-	margin-bottom: 3rem;
+	width: 100%;
+	margin: 2.4rem 0 2.4rem 0;
 }
 
 .contact-button input {
