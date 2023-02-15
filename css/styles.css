@@ -266,7 +266,7 @@ section {
 }
 
 .about-photo img {
-	border: 2px solid #64ABCF;
+	border: 2px solid #1f1f1f;
 	box-shadow: 0 3px 6px rgba(31, 31, 31, 0.25);
 	width: calc(100% - 4px);
 	margin-top: 3.6rem;
