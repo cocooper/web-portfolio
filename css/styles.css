@@ -4,8 +4,8 @@ html {
 
 body {
 	background-color: #efefef;
-	background-image: linear-gradient(red 1px, transparent 1px);
-	background-size: auto 24px;
+	/*background-image: linear-gradient(red 1px, transparent 1px);
+	background-size: auto 24px;*/
 	font-family: neuzeit-grotesk, sans-serif;
 	font-size: 1.6rem;
 	line-height: 2.4rem;
