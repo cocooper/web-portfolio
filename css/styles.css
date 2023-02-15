@@ -154,7 +154,7 @@ section {
 }
 
 .services {
-	background-color: rgba(239, 239, 239, 1)
+	background-color: rgba(239, 239, 239, 1);
 }
 
 .services h2 {
@@ -200,7 +200,7 @@ section {
 }
 
 .services-service-list {
-	margin-top: 5.4rem;
+	margin-top: 5.5rem;
 }
 
 .services-service-regions {
@@ -230,9 +230,13 @@ section {
 .portfolio-card-img {
 	border: 2px solid #64ABCF;
 	box-shadow: 0 3px 6px rgba(239, 239, 239, 0.25);
-	margin: 3.6rem 0 1.7rem 0;
+	margin: 2.4rem 0 1.7rem 0;
 	overflow: hidden;
 	height: unset;
+}
+
+.portfolio-img-one {
+	margin-top: 5.2rem;
 }
 
 .portfolio-card-img a img {
@@ -414,12 +418,9 @@ footer section {
 
 .footer-bottom {
 	background-color: rgba(100, 171, 207, 1);
+	font-size: 1.4rem;
 	font-weight: 700;
-	padding-bottom: 2.4rem;
-}
-
-.legal p {
-	margin-top: 2.2rem;
+	padding: 1.5rem 3rem;
 }
 
 .legal a {
@@ -494,6 +495,7 @@ footer section {
 	.services-cards,
 	.portfolio-cards {
 		display: flex;
+		flex-wrap: wrap;
 		justify-content: space-between;
 	}
 
@@ -503,6 +505,19 @@ footer section {
 
 	.portfolio-card {
 		width: 31%;
+	}
+
+	.portfolio-img-one,
+	.portfolio-img-two,
+	.portfolio-img-three {
+		margin-top: 5.2rem;
+		margin-bottom: 2.4rem;
+	}
+
+	.portfolio-img-four,
+	.portfolio-img-five,
+	.portfolio-img-six {
+		margin-top: 0rem;
 	}
 
 	.about-headline {
@@ -531,7 +546,7 @@ footer section {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;
-		padding: 3.6rem 6rem 4rem 6rem;
+		padding: 3.6rem 6rem 4.6rem 6rem;
 	}
 
 	.footer-cta-bundle {
@@ -633,6 +648,13 @@ footer section {
 		width: 24%;
 	}
 
+	.portfolio-img-one,
+	.portfolio-img-two,
+	.portfolio-img-three {
+		margin-top: 5.2rem;
+		margin-bottom: 3.4rem;
+	}
+
 	.portfolio-card-img a img {
 		mix-blend-mode: luminosity;
 		opacity: 0.75;
@@ -730,6 +752,13 @@ footer section {
 		padding-bottom: 10.4rem;
 	}
 
+	.portfolio-img-one,
+	.portfolio-img-two,
+	.portfolio-img-three {
+		margin-top: 5.2rem;
+		margin-bottom: 4.2rem;
+	}
+
 	.about-contact-headline {
 		padding: 0 0 0 9rem;
 		margin-bottom: 1.4rem;
@@ -743,7 +772,7 @@ footer section {
 	/*------------------------------*/
 
 	footer section {
-		padding: 3.6rem 9rem 4rem 9rem;
+		padding: 3.6rem 9rem 4.6rem 9rem;
 	}
 
 	.footer-links {
@@ -832,7 +861,7 @@ footer section {
 	/*------------------------------*/
 
 	footer section {
-		padding: 3.6rem 12rem 4rem 12rem;
+		padding: 3.6rem 12rem 4.6rem 12rem;
 	}
 
 	.footer-bottom {
