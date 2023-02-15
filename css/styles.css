@@ -794,6 +794,11 @@ footer section {
 		max-height: 29rem;
 	}
 
+	.contact-input,
+	.contact-button {
+		max-width: 40rem;
+	}
+
 	.about-contact-form .contact-input input {
 		font-family: neuzeit-grotesk, sans-serif;
 		border-style: none;
