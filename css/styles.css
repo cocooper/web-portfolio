@@ -4,8 +4,8 @@ html {
 
 body {
 	background-color: #efefef;
-	/*background-image: linear-gradient(red 1px, transparent 1px);
-	background-size: auto 24px;*/
+	background-image: linear-gradient(red 1px, transparent 1px);
+	background-size: auto 24px;
 	font-family: neuzeit-grotesk, sans-serif;
 	font-size: 1.6rem;
 	line-height: 2.4rem;
@@ -778,7 +778,7 @@ footer section {
 	.about-contact-form {
 		background-color: rgba(31, 31, 31, 1);
 		width: 100%;
-		padding: 6.2rem 0 7.4rem 0;
+		padding: 6.2rem 0 9.4rem 0;
 		margin: 0;
 	}
 
@@ -787,27 +787,13 @@ footer section {
 		padding-left: 9rem;
 	}
 
-	.contact-flex-container {
-		display: flex;
-		flex-wrap: wrap;
-		flex-direction: column;
-		max-height: 29rem;
-	}
-
-	.contact-input,
-	.contact-recaptcha,
-	.contact-button {
-		max-width: 40rem;
-	}
-
 	.about-contact-form .contact-input input {
 		font-family: neuzeit-grotesk, sans-serif;
 		border-style: none;
 		outline: none;
-		width: 30rem;
+		width: 100%;
 		padding: 0.8rem 0 0.8rem 1rem;
 		margin-top: 2.4rem;
-		margin-right: 6rem;
 	}
 
 	.about-contact-form form div textarea {
@@ -818,9 +804,27 @@ footer section {
 		margin-top: 2.4rem;
 		min-height: 8rem;
 		max-height: 8rem;
-		min-width: 40rem;
-		max-width: 40rem;
+		min-width: calc(100% - 1rem);
+		max-width: calc(100% - 1rem);
 		padding: 1rem 1rem;
+	}
+
+	.contact-recaptcha {
+		width: 100%;
+		margin: 2.4rem 0 2.4rem 0;
+	}
+
+	.contact-button input {
+		font-family: neuzeit-grotesk, sans-serif;
+		font-size: 1.6rem;
+		font-weight: 700;
+		border-style: none;
+		border-radius: 3px;
+		outline: none;
+		padding: 0.6rem 0 0.7rem 0;
+		width: 304px;
+		background-color: #64ABCF;
+		color: #fff;
 	}
 	
 	/*------------FOOTER------------*/
@@ -909,22 +913,10 @@ footer section {
 	}
 
 	.about-contact-form form {
+		width: calc(100% - 25rem);
 		padding-left: 12rem;
-	}
+	}	
 
-	.about-contact-form form div textarea {
-		font-family: neuzeit-grotesk, sans-serif;
-		border-style: none;
-		outline: none;
-		padding: 0;
-		margin-top: 2.4rem;
-		min-height: 8rem;
-		max-height: 8rem;
-		min-width: 58rem;
-		max-width: 58rem;
-		padding: 1rem 1rem;
-	}
-	
 	/*------------FOOTER------------*/
 	/*------------------------------*/
 
@@ -959,19 +951,6 @@ footer section {
 
 	.portfolio-card {
 		width: 31.85%;
-	}
-
-	.about-contact-form form div textarea {
-		font-family: neuzeit-grotesk, sans-serif;
-		border-style: none;
-		outline: none;
-		padding: 0;
-		margin-top: 2.4rem;
-		min-height: 8rem;
-		max-height: 8rem;
-		min-width: 80rem;
-		max-width: 80rem;
-		padding: 1rem 1rem;
 	}
 	
 	/*------------FOOTER------------*/
