@@ -400,14 +400,14 @@ footer section {
 
 .footer-links {
 	font-weight: 700;
-	margin: 3rem 0 2.4rem 0;
+	margin: 4rem 0 3rem 0;
 	display: flex;
 	width: 100%;
 }
 
 .footer-links a {
 	color: #1f1f1f;
-	margin-right: 2rem;
+	margin-right: 3.6rem;
 }
 
 .footer-btt {
@@ -417,12 +417,12 @@ footer section {
 }
 
 .footer-btt a {
-	color: #64ABCF;
+	color: #1f1f1f;
 }
 
 .footer-bottom {
 	background-color: rgba(100, 171, 207, 1);
-	font-size: 1.4rem;
+	font-size: 1.6rem;
 	font-weight: 700;
 	padding: 1.5rem 3rem;
 }
@@ -444,7 +444,7 @@ footer section {
 }
 
 .footer-btt a:hover {
-	color: #1f1f1f;
+	color: #64ABCF;
 }
 
 .legal a:hover {
