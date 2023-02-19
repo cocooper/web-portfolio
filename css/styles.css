@@ -682,7 +682,7 @@ footer section {
 	}
 
 	.about-bio {
-		width: 40%;
+		width: 48%;
 	}
 
 	.about-contact-headline {
@@ -771,7 +771,8 @@ footer section {
 	}
 
 	.about-bio {
-		width: 64%;
+		width: 56%;
+		padding-right: 9%;
 	}
 
 	.about-contact-headline {
