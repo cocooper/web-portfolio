@@ -342,28 +342,16 @@ section {
 }
 
 .form-sent div {
-/*	margin: 10rem 9rem 10rem 3rem;*/
-	font-weight: 400;
-	font-size: 1.8rem;
-	line-height: 3rem;
-	color: #fff;
+	text-align: center;
+	color: #1f1f1f;
+	height: 26vh;
+	padding: 50% 0 0 0;
 }
 
 .form-sent h2 {
-	font-weight: 500;
-/*	margin-bottom: 6rem;*/
-}
-
-.form-sent .thanks {
-/*	margin-bottom: 6rem;*/
-}
-
-.form-sent p {
-/*	margin-bottom: 2rem;*/
-}
-
-.form-sent a {
-	color: #efefef;
+	font-size: 3rem;
+	font-weight: 700;
+	line-height: 4.5rem;
 }
 
 /*------------FOOTER------------*/
@@ -536,6 +524,13 @@ footer section {
 	.about-contact-form form {
 		width: calc(100% - 13rem);
 		padding-left: 6rem;
+	}
+
+	.form-sent div {
+		text-align: center;
+		color: #1f1f1f;
+		height: 30vh;
+		padding: 15% 0 0 0;
 	}
 
 	/*------------FOOTER------------*/
@@ -796,7 +791,7 @@ footer section {
 		font-family: neuzeit-grotesk, sans-serif;
 		border-style: none;
 		outline: none;
-		width: 100%;
+		width: 50%;
 		padding: 0.8rem 0 0.8rem 1rem;
 		margin-top: 2.4rem;
 	}
@@ -809,8 +804,8 @@ footer section {
 		margin-top: 2.4rem;
 		min-height: 8rem;
 		max-height: 8rem;
-		min-width: calc(100% - 1rem);
-		max-width: calc(100% - 1rem);
+		min-width: calc(50% - 1rem);
+		max-width: calc(50% - 1rem);
 		padding: 1rem 1rem;
 	}
 
